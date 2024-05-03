@@ -2,8 +2,8 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [32, 32],
 	"textures": {
-		"1": "diamond_block",
-		"particle": "block/texture"
+		"1": "minecraft:block/diamond_block",
+		"particle": "minecraft:block/texture"
 	},
 	"elements": [
 		{
@@ -287,6 +287,33 @@
 			}
 		}
 	],
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [0, 3.25, 1.5]
+		},
+		"thirdperson_lefthand": {
+			"translation": [0, 3.25, 1.5]
+		},
+		"firstperson_righthand": {
+			"translation": [2, 3.5, -2.25]
+		},
+		"firstperson_lefthand": {
+			"translation": [1, 4.25, -1.5]
+		},
+		"ground": {
+			"translation": [0, 3.5, 0]
+		},
+		"gui": {
+			"rotation": [0, -90, 0],
+			"translation": [0, -3.5, 0],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"fixed": {
+			"rotation": [0, -83, 0],
+			"translation": [0, -2.75, 0],
+			"scale": [0.5, 0.5, 0.5]
+		}
+	},
 	"groups": [
 		0,
 		{

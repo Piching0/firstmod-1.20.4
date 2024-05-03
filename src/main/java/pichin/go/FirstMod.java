@@ -4,6 +4,8 @@ import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import pichin.go.item.ModItemGroups;
+import pichin.go.item.ModItems;
 
 public class FirstMod implements ModInitializer {
 	// This logger is used to write text to the console and the log file.
@@ -17,6 +19,7 @@ public class FirstMod implements ModInitializer {
 		// This code runs as soon as Minecraft is in a mod-load-ready state.
 		// However, some things (like resources) may still be uninitialized.
 		// Proceed with mild caution.
-
+		ModItemGroups.registerItemGroups();
+		ModItems.registerModItems();
 	}
 }
